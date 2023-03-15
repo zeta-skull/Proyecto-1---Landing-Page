@@ -1,4 +1,5 @@
-# PROYECTO PAGINA DE LANDING PAGE    (https://i.imgur.com/nWdEUPL.png)
+# PROYECTO PAGINA DE LANDING PAGE
+(https://i.imgur.com/nWdEUPL.png)
 Primera pagina de bootcamp UDD, la cual tiene fines educativos, tambien puede servir para un proyecto real de landing.
 
 ## Descripcion basica
