@@ -1,5 +1,5 @@
 # PROYECTO PAGINA DE LANDING PAGE
-[![ZETA](https://i.imgur.com/Mf9uLA7.png)
+![ZETA](https://i.imgur.com/Mf9uLA7.png)
 
 Primera pagina de bootcamp UDD, la cual tiene fines educativos, tambien puede servir para un proyecto real de landing.
 
