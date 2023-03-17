@@ -303,61 +303,151 @@ input[type="submit"]:hover{
 
 /* footer menu iconos de redes sociales*/
 
+/* footer */
+
 footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
     background: #794480;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
     color: #fff;
 }
 
-.social-menu {
+.footer-contenedor{
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-  
-  .social-menu ul {
+.footer-contenedor h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-contenedor p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
 }
-  
-  .social-menu li {
+
+.socials li{
     margin: 0 10px;
 }
- 
-  .social-menu a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
+
+.socials a{
+    text-decoration: none;
     color: #fff;
-    font-size: 18px;
-    transition: all 0.3s ease;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
 }
-  
-  .social-menu a:hover {
-    transform: translateY(-5px);
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
 }
-  
-  .social-menu .fab {
-    font-size: 24px;
+
+.socials a:hover i{
+    color: aqua;
 }
-  
-  .social-menu .fa-facebook {
-    background-color: #3b5998;
+
+.footer-bottom{
+    background: #00000079;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
 }
-  
-  .social-menu .fa-twitter {
-    background-color: #1da1f2;
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
 }
-  
-  .social-menu .fa-youtube {
-    background-color: #cd201f;
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
 }
-  
-  .social-menu .fa-instagram {
-    background-color: #e1306c;
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+.footer-bottom{
+    background: #00000079;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
 }
 
 /* Llamados de Media Query */
