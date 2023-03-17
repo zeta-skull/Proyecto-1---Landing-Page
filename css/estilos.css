@@ -88,3 +88,199 @@ nav {
     border-radius: 8px;
     color: #fff;
 }
+
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Estilos de formularion de contacto en HERO */
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: #fff;
+    outline: none;
+    border: 1px  solid #fff;
+    padding: 20px 10px;
+}
+
+.input::placeholder{
+    color: #fff;
+    font-family: 'raleway', 'sans-serif';
+}
+
+input[type="text"], 
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 14px 0;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: tomato;
+    background: #fff;
+}
+
+/* Estilos generales */
+
+.contenedor,
+.wave-contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.contenedor{
+    padding: 80px 0;
+}
+
+.titulo{
+    font-weight: 300;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo.left{
+    text-align: left;
+}
+
+.titulo.right{
+    text-align: right;
+}
+
+/* Section */
+
+.website{
+    display: flex;
+    justify-content: space-between;
+}
+
+.website img{
+    width: 48%;
+}
+
+.website .contenedor-textos-main{
+    width: 40%;
+}
+
+.parrafo{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    background: #794480bd;
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+/* Info */
+
+.info{
+    background: #794480bd;
+    color: #fff;
+}
+
+
+/* Cards */
+
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card i{
+    margin: 30px 0 20px 0;
+    color: #cc9199;
+    font-size: 50px;
+}
+
+.card p{
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* galeria */
+
+.galeria{
+    background: #f2f2f2;
+}
+
+.galeria-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.galeria-cont>img{
+    width: 30%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* info2 */
+
+.last-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.last-section img{
+    width: 48%;
+}
+
+.last-section .contenedor-textos-main{
+    width: 40%;
+}
