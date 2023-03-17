@@ -301,9 +301,64 @@ input[type="submit"]:hover{
     width: 40%;
 }
 
-/* footer */
+/* footer menu iconos de redes sociales*/
 
+footer{
+    background: #794480;
+    color: #fff;
+}
 
+.social-menu {
+    display: flex;
+    justify-content: center;
+}
+  
+  .social-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+  
+  .social-menu li {
+    margin: 0 10px;
+}
+ 
+  .social-menu a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+  
+  .social-menu a:hover {
+    transform: translateY(-5px);
+}
+  
+  .social-menu .fab {
+    font-size: 24px;
+}
+  
+  .social-menu .fa-facebook {
+    background-color: #3b5998;
+}
+  
+  .social-menu .fa-twitter {
+    background-color: #1da1f2;
+}
+  
+  .social-menu .fa-youtube {
+    background-color: #cd201f;
+}
+  
+  .social-menu .fa-instagram {
+    background-color: #e1306c;
+}
 
 /* Llamados de Media Query */
 
