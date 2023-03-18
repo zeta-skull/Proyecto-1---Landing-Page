@@ -119,7 +119,7 @@ nav {
 
 .input::placeholder{
     color: #fff;
-    font-family: 'raleway', 'sans-serif';
+    font-family: 'raleway';
 }
 
 input[type="text"], 
@@ -138,6 +138,8 @@ input[type="submit"]{
     width: 120px;
     text-align: center;
     padding: 14px 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 input[type="submit"]:hover{
